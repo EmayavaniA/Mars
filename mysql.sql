@@ -8,6 +8,11 @@ CREATE DATABASE db_name;
 
 SHOW DATABASES;
 
+to create new user and grant permission:
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';
+
+
 USE db_name;
 
 CREATE TABLE tablename (
